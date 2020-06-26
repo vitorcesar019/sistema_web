@@ -1,6 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'robotobold';
+    src: url('http://local.sistema-web/fontes/roboto-bold-webfont.woff2') format('woff2'),
+         url('http://local.sistema-web/fontes/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('http://local.sistema-web/fontes/roboto-regular-webfont.woff2') format('woff2'),
+         url('http://local.sistema-web/fontes/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #principal {
 	width: 310px;
 	height: auto;
@@ -10,17 +26,29 @@
 
 
 label {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	color: #999;
+	font-family: robotobold;
+	font-weight: bold;
+	font-size: 16px;
+	color:#000000;
 	margin: 5px;
 	width: 300px;
 	height: 16px;
 	float: left;
 }
 
+h1 {
+	font-family: robotobold;
+	font-size: 28px;
+	color:#000000;
+	margin: 21px;
+	width: 290px;
+	text-align: center;
+	float: right;
+}
 
 .input_01 {
+	font-family: robotoregular;
+	font-size: 15px;
 	width: 300px;
 	height: 20px;
 	float: left;
@@ -28,6 +56,8 @@ label {
 }
 
 .input_02 {
+	font-family: robotoregular;
+	font-size: 15px;
 	width: 300px;
 	height: 20px;
 	float: left;
@@ -36,6 +66,8 @@ label {
 }
 
 .select_01 {
+	font-family: robotoregular;
+	font-size: 15px;
 	width: 304px;
 	height: 24px;
 	float: left;
@@ -43,6 +75,8 @@ label {
 }
 
 .select_02 {
+	font-family: robotoregular;
+	font-size: 15px;	
 	width: 304px;
 	height: 24px;
 	float: left;
@@ -51,13 +85,16 @@ label {
 }
 
 .btn {
+	font-family: robotobold;
+	font-size: 15px;
 	width:  100px;
 	height: 24px;
 	background-color: #03dac6;
 	border: 0px;
 	float: left;
 	margin: 5px;
-	color: #03dac6;
+	color:#FFF;
+
 }
 
 .btn:hover {

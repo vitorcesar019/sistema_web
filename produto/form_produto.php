@@ -22,13 +22,13 @@ $sql = mysqli_query($con, $sql) or die("Erro na SQL!");
       <h1> Cadastro de Produtos </h1>
 
       <label> Descrição </label>
-      <input name="txt_descricao" type="text" class="input_01">
+      <input name="txt_descricao" type="text" class="input_01" placeholder="Entre com a Descrição">
 
       <label> Quantidade </label>
-      <input name="txt_qtde" type="text" class="input_01">
+      <input name="txt_qtde" type="text" class="input_01" placeholder="Entre com a Quantidade">
 
       <label> Preço </label>
-      <input name="txt_preco" type="text" class="input_01">
+      <input name="txt_preco" type="text" class="input_01" placeholder="Entre com o Preço">
 
       <label> Foto </label>
       <input name="txt_arquivo" type="file" id="txt_arquivo" class="input_01">

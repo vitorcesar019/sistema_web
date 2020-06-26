@@ -43,8 +43,8 @@ $sql = mysqli_query($con, $sql) or die ("Erro na sql!") ;
 <div id="principal">
 
 <form name="frm_consulta" action="consulta_cliente.php" method="post">
-  <input name="txt_consultar" type="text">
-  <input name="btn_consultar" type="submit" value="Buscar">
+  <input name="txt_consultar" type="text" placeholder="Buscar">
+  <input name="btn_consultar" type="submit" value="Buscar" >
 </form>
 
   <div class="linha"> 

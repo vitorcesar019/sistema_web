@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('http://local.sistema-web/fontes/roboto-bold-webfont.woff2') format('woff2'),
+         url('http://local.sistema-web/fontes/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('http://local.sistema-web/fontes/roboto-regular-webfont.woff2') format('woff2'),
+         url('http://local.sistema-web/fontes/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #FFF;
+	margin: 0px;
+	width: 100%;
+	height: 100vh;
+	font-family: robotobold;
+	color: #6e7882;
+	font-size: 17px;
+}
+
+#principal {
+	width: 100%;
+	height: 100%;
+}
+
+#menu {
+	width: 20%;
+	height: 100vh;
+	background-color: #6200ee;
+	float: left;
+}
+
+#conteudo {
+	width: 80%;
+	height: 100vh;
+	float: left;	
+	background-color: #F4F4F4;
+}
+
+.titulo {
+	width: 96%;
+	height: 21px;
+	float: left;
+	border: 0px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #3700b3;
+	padding: 2%;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+	color: #FFF;
+	background-color: #3700b3;
+  padding: 2%;
+  text-align: center;
+  border-bottom: 3px solid #6200ee;
+}
+
+.botao {
+	width: 92%;
+	height: 20px;
+	float: left;
+	border: 0px;
+  padding: 4%;
+}
+
+.botao:hover {
+	background-color: #03dac6; 
+	color: #FFF;
+}
+
+a {
+	font-family: robotoregular;
+	color: #fff;
+	font-size: 15px;
+}
+
+img {
+	width: 12px;
+	height: 12px;
+}

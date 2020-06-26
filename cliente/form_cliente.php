@@ -12,13 +12,13 @@
     <div id="principal">
       <h1> Cadastro de Clientes </h1>
         <label> Nome </label>
-        <input name="txt_nome" type="text" class="input_01">
+        <input name="txt_nome" type="text" class="input_01" placeholder="Entre com o Nome">
         
         <label> Data Nascimento </label>
-        <input name="txt_nascimento" type="text" class="input_01">
+        <input name="txt_nascimento" type="text" class="input_01" placeholder="Entre com a Data de Nascimento">
         
         <label> Email </label>
-        <input name="txt_email" type="email" class="input_01">
+        <input name="txt_email" type="email" class="input_01" placeholder="Entre com Email">
         
         <label> Sexo </label>
         <select name="sel_sexo" class="select_01">
