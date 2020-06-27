@@ -35,10 +35,12 @@ $sql = mysqli_query($con, $sql) or die("Erro na SQL!");
 
       <label> Fornecedor </label>
       <select name="sel_fornecedor" class="select_01">
+
         <?php while ($dados = mysqli_fetch_array($sql)) { ?>
           <option value="<?php echo $dados['for_codigo']; ?>"> <?php echo $dados['for_nome']; ?>
           </option>
         <?php } ?>
+        
       </select>
 
       <label> Status </label>
