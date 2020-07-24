@@ -39,6 +39,7 @@ $sql2 = mysqli_query($con, $sql2) or die("Erro na sql 2!");
 
             <label> Foto </label>
             <input name="txt_arquivo" type="file" id="txt_arquivo" class="input_01">
+            <input name="foto" type="hidden" value="<?php echo $dados['pro_foto']; ?>"> 
 
             <label> Fornecedor </label>
             <select name="sel_fornecedor" class="select_01">

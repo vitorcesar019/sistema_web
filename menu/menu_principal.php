@@ -48,7 +48,7 @@ require_once("../seguranca.php");
         <div class="botao"> <img src="../img/icon_consulta.png"> Consulta </div>
       </a>
 
-      <a href="../produto/consulta_fotos.php" target="conteudo">
+      <a href="../produto/fotos_produtos.php" target="conteudo">
         <div class="botao"> <img src="../img/icon_consulta.png"> Consulta Fotos </div>
       </a>
 
@@ -62,11 +62,11 @@ require_once("../seguranca.php");
       </a>
 
       <div class="titulo"> :: News </div>
-      <a href="../news/form_new.php" target="conteudo">
+      <a href="../news/form_news.php" target="conteudo">
         <div class="botao"> <img src="../img/icon_cadastro.png"> Formulário de Cadastro </div>
       </a>
 
-      <a href="../news/consulta_new.php" target="conteudo">
+      <a href="../news/consulta_news.php" target="conteudo">
         <div class="botao"> <img src="../img/icon_consulta.png"> Consulta </div>
       </a>
 
