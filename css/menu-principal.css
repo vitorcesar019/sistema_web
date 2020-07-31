@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'robotobold';
-    src: url('http://local.sistema-web/fontes/roboto-bold-webfont.woff2') format('woff2'),
-         url('http://local.sistema-web/fontes/roboto-bold-webfont.woff') format('woff');
+    src: url('../fontes/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fontes/roboto-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('http://local.sistema-web/fontes/roboto-regular-webfont.woff2') format('woff2'),
-         url('http://local.sistema-web/fontes/roboto-regular-webfont.woff') format('woff');
+    src: url('../fontes/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fontes/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

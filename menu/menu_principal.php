@@ -65,10 +65,16 @@ require_once("../seguranca.php");
       <a href="../news/form_news.php" target="conteudo">
         <div class="botao"> <img src="../img/icon_cadastro.png"> Formulário de Cadastro </div>
       </a>
-
       <a href="../news/consulta_news.php" target="conteudo">
         <div class="botao"> <img src="../img/icon_consulta.png"> Consulta </div>
       </a>
+
+      <div class="titulo"> :: Vendas </div>
+      <a href="../venda/form_venda.php" target="conteudo">
+        <div class="botao"> <img src="../img/icon_cadastro.png"> Formulário de Vendas </div>
+      </a>
+
+
 
       <div class="titulo"> :: Sair </div>
       <a href="../logout.php">
