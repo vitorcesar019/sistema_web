@@ -74,6 +74,10 @@ require_once("../seguranca.php");
         <div class="botao"> <img src="../img/icon_cadastro.png"> Formulário de Vendas </div>
       </a>
 
+      <a href="../venda/consulta_venda.php" target="conteudo">
+        <div class="botao"> <img src="../img/icon_cadastro.png"> Consulta </div>
+      </a>
+
 
 
       <div class="titulo"> :: Sair </div>
@@ -84,7 +88,7 @@ require_once("../seguranca.php");
     </div>
 
     <div id="conteudo">
-      <iframe name="conteudo" src="" height="100%" width="100%" frameborder="0" scrolling="auto"> </iframe>
+      <iframe name="conteudo" src="" height="1000px" width="100%" frameborder="0" scrolling="auto"> </iframe>
     </div>
 
   </div>
